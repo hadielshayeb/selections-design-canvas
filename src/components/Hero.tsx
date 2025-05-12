@@ -9,11 +9,14 @@ const Hero = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Send email to the specified address
-    console.log("Sending consultation request to hadi@projectr.dev");
+    // Send email to both specified addresses
+    console.log("Sending consultation request to hadi@projectr.dev and hadielshayeb@gmail.com");
     console.log("Consultation requested with email:", email);
     toast.success("Thank you! We'll contact you soon for a consultation.");
     setEmail("");
+    
+    // You could implement actual form submission here with a service like EmailJS, Formspree, etc.
+    // This would require integrating with a form service or creating a backend endpoint
   };
 
   return (
