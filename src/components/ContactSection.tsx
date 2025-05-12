@@ -54,22 +54,22 @@ const ContactSection = () => {
               <div>
                 <h4 className="font-medium mb-2">Phone</h4>
                 <a href="tel:+15551234567" className="text-primary hover:text-primary/80">
-                  (555) 123-4567
+                  +1 (905)-629-0001
                 </a>
               </div>
               
               <div>
                 <h4 className="font-medium mb-2">Office</h4>
                 <address className="not-italic">
-                  123 Design Street<br />
-                  Suite 100<br />
-                  Design City, ST 12345
+                  19-5200 Dixie Rd. <br />
+                  Mississauga, Ontario <br />
+                  L4W 1E4
                 </address>
               </div>
               
               <div>
                 <h4 className="font-medium mb-2">Hours</h4>
-                <p>Monday - Friday: 9am - 5pm</p>
+                <p>Monday - Friday: 9am - 7pm</p>
                 <p>Weekend: By appointment</p>
               </div>
             </div>
