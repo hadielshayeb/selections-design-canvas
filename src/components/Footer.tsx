@@ -1,4 +1,6 @@
 
+import { Facebook, Instagram, Linkedin, Pinterest } from "lucide-react";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
@@ -12,33 +14,17 @@ const Footer = () => {
               Creating beautiful, functional spaces that inspire and delight. Your vision, our expertise.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-white/80 transition-colors" aria-label="Facebook">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                </svg>
+              <a href="https://www.facebook.com/selectionsdesign/" target="_blank" rel="noopener noreferrer" className="hover:text-white/80 transition-colors" aria-label="Facebook">
+                <Facebook size={24} />
               </a>
-              <a href="#" className="hover:text-white/80 transition-colors" aria-label="Instagram">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                </svg>
+              <a href="https://www.instagram.com/selectionsdesign/" target="_blank" rel="noopener noreferrer" className="hover:text-white/80 transition-colors" aria-label="Instagram">
+                <Instagram size={24} />
               </a>
-              <a href="#" className="hover:text-white/80 transition-colors" aria-label="Pinterest">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
-                  <path d="M21 8v8a5 5 0 0 1 -5 5H8a5 5 0 0 1 -5 -5V8a5 5 0 0 1 5 -5h8a5 5 0 0 1 5 5z"></path>
-                  <line x1="8" y1="21" x2="8" y2="13.5"></line>
-                  <path d="M10.5 13.5c2.5 0 4.5 -2 4.5 -4.5c0 -3 -4 -3 -4 0"></path>
-                </svg>
+              <a href="https://www.linkedin.com/company/selections-interiors-and-design/" target="_blank" rel="noopener noreferrer" className="hover:text-white/80 transition-colors" aria-label="LinkedIn">
+                <Linkedin size={24} />
               </a>
-              <a href="#" className="hover:text-white/80 transition-colors" aria-label="Houzz">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect>
-                  <path d="M13 12H9"></path>
-                  <path d="M13 8H9"></path>
-                  <path d="M13 16H9"></path>
-                </svg>
+              <a href="https://ca.pinterest.com/selectionsdesign/" target="_blank" rel="noopener noreferrer" className="hover:text-white/80 transition-colors" aria-label="Pinterest">
+                <Pinterest size={24} />
               </a>
             </div>
           </div>
@@ -68,9 +54,9 @@ const Footer = () => {
           <div>
             <h4 className="font-playfair text-lg mb-4">Get In Touch</h4>
             <address className="not-italic space-y-2">
-              <p>123 Design Street</p>
-              <p>Design City, ST 12345</p>
-              <p>Phone: (555) 123-4567</p>
+              <p>19-5200 Dixie Rd.</p>
+              <p>Mississauga, Ontario L4W 1E4</p>
+              <p>Phone: (905) 629-0001</p>
               <p>Email: info@selectionsdesign.com</p>
             </address>
           </div>

@@ -1,7 +1,20 @@
 
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { useState } from "react";
+import { toast } from "@/components/ui/sonner";
 
 const Hero = () => {
+  const [email, setEmail] = useState("");
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    // Here you would typically send the email to your backend
+    console.log("Consultation requested with email:", email);
+    toast.success("Thank you! We'll contact you soon for a consultation.");
+    setEmail("");
+  };
+
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-24">
       <div
@@ -22,21 +35,24 @@ const Hero = () => {
             Elevate your living and working environments with our expert interior design and 
             selection services tailored to your unique style and needs.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4">
+          <form onSubmit={handleSubmit} className="mt-8 flex flex-col sm:flex-row gap-3">
+            <Input
+              type="email"
+              placeholder="Enter your email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+              className="bg-white/20 border-white text-white placeholder:text-white/70 focus-visible:ring-white"
+            />
             <Button
-              size="lg"
-              className="bg-white text-primary hover:bg-white/90"
-            >
-              Explore Our Work
-            </Button>
-            <Button
+              type="submit"
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white/20"
+              className="border-white text-white hover:bg-white/20 whitespace-nowrap"
             >
               Book a Consultation
             </Button>
-          </div>
+          </form>
         </div>
       </div>
 
