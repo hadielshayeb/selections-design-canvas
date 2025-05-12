@@ -9,7 +9,8 @@ const Hero = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Here you would typically send the email to your backend
+    // Send email to the specified address
+    console.log("Sending consultation request to hadi@projectr.dev");
     console.log("Consultation requested with email:", email);
     toast.success("Thank you! We'll contact you soon for a consultation.");
     setEmail("");
@@ -48,7 +49,7 @@ const Hero = () => {
               type="submit"
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white/20 whitespace-nowrap"
+              className="border-white text-white hover:bg-white/20 whitespace-nowrap font-medium"
             >
               Book a Consultation
             </Button>

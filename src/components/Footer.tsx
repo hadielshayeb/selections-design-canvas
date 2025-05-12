@@ -24,7 +24,7 @@ const Footer = () => {
                 <Linkedin size={24} />
               </a>
               <a href="https://ca.pinterest.com/selectionsdesign/" target="_blank" rel="noopener noreferrer" className="hover:text-white/80 transition-colors" aria-label="Pinterest">
-                {/* Custom Pinterest icon as SVG */}
+                {/* Custom Pinterest icon as SVG with P label */}
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 
                   width="24" 
@@ -38,7 +38,7 @@ const Footer = () => {
                   className="lucide lucide-pinterest"
                 >
                   <circle cx="12" cy="12" r="10" />
-                  <path d="M9.2 16a.93.93 0 0 0 .93-.93V11.4a.93.93 0 0 1 .93-.93h2.8a.93.93 0 0 1 .94.93v3.74a.93.93 0 0 0 .94.93M12 6.88V16" />
+                  <text x="12" y="16" textAnchor="middle" fill="currentColor" fontSize="12" fontWeight="bold">P</text>
                 </svg>
               </a>
             </div>
@@ -77,12 +77,8 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="pt-8 border-t border-white/20 text-center md:text-left md:flex md:justify-between md:items-center">
+        <div className="pt-8 border-t border-white/20 text-center">
           <p>© {currentYear} Selections Interior & Design. All rights reserved.</p>
-          <div className="mt-4 md:mt-0">
-            <a href="#" className="text-sm mr-4 hover:text-white/80 transition-colors">Privacy Policy</a>
-            <a href="#" className="text-sm hover:text-white/80 transition-colors">Terms of Service</a>
-          </div>
         </div>
       </div>
     </footer>
