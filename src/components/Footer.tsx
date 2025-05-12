@@ -1,5 +1,5 @@
 
-import { Facebook, Instagram, Linkedin, Pinterest } from "lucide-react";
+import { Facebook, Instagram, Linkedin } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -24,7 +24,22 @@ const Footer = () => {
                 <Linkedin size={24} />
               </a>
               <a href="https://ca.pinterest.com/selectionsdesign/" target="_blank" rel="noopener noreferrer" className="hover:text-white/80 transition-colors" aria-label="Pinterest">
-                <Pinterest size={24} />
+                {/* Custom Pinterest icon as SVG */}
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  width="24" 
+                  height="24" 
+                  viewBox="0 0 24 24" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  strokeWidth="2" 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round"
+                  className="lucide lucide-pinterest"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M9.2 16a.93.93 0 0 0 .93-.93V11.4a.93.93 0 0 1 .93-.93h2.8a.93.93 0 0 1 .94.93v3.74a.93.93 0 0 0 .94.93M12 6.88V16" />
+                </svg>
               </a>
             </div>
           </div>
