@@ -9,9 +9,10 @@ const AboutUs = () => {
           <div>
             <h2 className="section-title">About Selections</h2>
             <p className="text-lg mb-6">
-              Selections Interior & Design is a premier design studio specializing in creating exceptional spaces 
-              that reflect our clients' unique personalities and needs. With years of industry experience, 
-              we've built a reputation for delivering sophisticated, functional, and timeless designs.
+              Selections Interiors & Design is a full service design and woodworking agency, 
+              proudly servicing the GTA and Muskoka regions for over 30 years. 
+              We bring state of the art inspiration from top designers to meet trends in modern and 
+              traditional interior design and decor to your door. 
             </p>
             <p className="text-lg mb-6">
               Our approach combines creativity, technical expertise, and meticulous attention to detail. 
@@ -19,7 +20,7 @@ const AboutUs = () => {
               and interact with your space.
             </p>
             <p className="text-lg mb-8">
-              Whether you're renovating a single room, building a new home, or redesigning a commercial space, 
+              Whether you're renovating a kitchen, single room, building a new home, or redesigning a commercial space, 
               our team will guide you through every step of the process, ensuring a seamless and enjoyable experience.
             </p>
             <Button size="lg" className="bg-primary hover:bg-primary/90">
