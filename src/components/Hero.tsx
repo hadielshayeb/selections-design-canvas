@@ -32,7 +32,7 @@ const Hero = () => {
             Creating Your <span className="italic">Perfect</span> Space
           </h1>
           <p className="text-lg md:text-xl opacity-90">
-            Elevate your living and working environments with our expert interior design and 
+            Elevate your living, kitchen, and working environments with our expert interior design and 
             selection services tailored to your unique style and needs.
           </p>
           <form onSubmit={handleSubmit} className="mt-8 flex flex-col sm:flex-row gap-3">
