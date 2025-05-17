@@ -52,7 +52,7 @@ const Hero = () => {
               type="submit"
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white/20 whitespace-nowrap font-medium"
+              className="border-white bg-white/90 text-black hover:bg-white whitespace-nowrap font-medium"
             >
               Book a Consultation
             </Button>

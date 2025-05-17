@@ -23,24 +23,6 @@ const Footer = () => {
               <a href="https://www.linkedin.com/company/selections-interiors-and-design/" target="_blank" rel="noopener noreferrer" className="hover:text-white/80 transition-colors" aria-label="LinkedIn">
                 <Linkedin size={24} />
               </a>
-              <a href="https://ca.pinterest.com/selectionsdesign/" target="_blank" rel="noopener noreferrer" className="hover:text-white/80 transition-colors" aria-label="Pinterest">
-                {/* Custom Pinterest icon as SVG with P label */}
-                <svg 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  width="24" 
-                  height="24" 
-                  viewBox="0 0 24 24" 
-                  fill="none" 
-                  stroke="currentColor" 
-                  strokeWidth="2" 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round"
-                  className="lucide lucide-pinterest"
-                >
-                  <circle cx="12" cy="12" r="10" />
-                  <text x="12" y="16" textAnchor="middle" fill="currentColor" fontSize="12" fontWeight="bold">P</text>
-                </svg>
-              </a>
             </div>
           </div>
           

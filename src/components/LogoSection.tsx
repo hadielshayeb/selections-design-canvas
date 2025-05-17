@@ -6,7 +6,7 @@ const LogoSection = () => {
     { 
       name: "Hero Certified Burgers", 
       alt: "Hero Certified Burgers logo", 
-      logo: "https://upload.wikimedia.org/wikipedia/en/5/5b/Hero_Certified_Burgers_logo.jpg" 
+      logo: "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/restaurant/cover/b63a7d43-9a09-4242-bc69-a868384c8f3b.png" 
     },
     { 
       name: "Baskin Robbins", 
@@ -16,42 +16,42 @@ const LogoSection = () => {
     { 
       name: "University of Toronto", 
       alt: "University of Toronto logo", 
-      logo: "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/University_of_Toronto_seal.svg/1200px-University_of_Toronto_seal.svg.png" 
+      logo: "https://spacesandexperiences.utoronto.ca/wp-content/uploads/2024/04/brand-UofT.jpg" 
     },
     { 
-      name: "Toronto Metropolitan University", 
-      alt: "Toronto Metropolitan University logo", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Toronto_Metropolitan_University_logo.svg/1200px-Toronto_Metropolitan_University_logo.svg.png" 
+      name: "Ryerson University", 
+      alt: "Ryerson University logo", 
+      logo: "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fofficial-new-logo-from-instagram-v0-tdoagd2vqwv81.jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3D8bff8bac38911d3058e60fc61eed0dbf268f3c16" 
     },
     { 
       name: "City of Mississauga", 
       alt: "City of Mississauga logo", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Flag_of_Mississauga.svg/1200px-Flag_of_Mississauga.svg.png" 
+      logo: "https://mbot.com/wp-content/uploads/2020/03/City-of-Mississauga.jpg" 
     },
     { 
       name: "Metrolinx", 
       alt: "Metrolinx logo", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Metrolinx_logo.svg/1200px-Metrolinx_logo.svg.png" 
+      logo: "https://getvectorlogo.com/wp-content/uploads/2019/01/metrolinx-vector-logo.png" 
     },
     { 
       name: "Dufferin Peel Catholic District School Board", 
       alt: "Dufferin Peel Catholic District School Board logo", 
-      logo: "https://www3.dpcdsb.org/media/5517/dpcdsb-logo-horizontal-blue.jpg" 
+      logo: "https://www.ocsta.on.ca/ocsta/wp-content/uploads/2019/02/logos_005-Dufferin-Peel-Catholic-District-School-Board.jpg" 
     },
     { 
       name: "Snug Harbour", 
       alt: "Snug Harbour logo", 
-      logo: "https://snugharbourrestaurant.com/wp-content/uploads/2018/02/cropped-cropped-logo-1.jpg" 
+      logo: "https://media.glassdoor.com/sqll/1183738/snug-harbour-seafood-bar-and-grill-squarelogo-1536043588734.png" 
     },
     { 
       name: "Mucho Burrito", 
       alt: "Mucho Burrito logo", 
-      logo: "https://upload.wikimedia.org/wikipedia/en/f/ff/Mucho_Burrito_logo.png" 
+      logo: "https://assets.simon.com/tenantlogos/29736.png" 
     },
     { 
       name: "City of Brampton", 
       alt: "City of Brampton logo", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Brampton_Logo.svg/1200px-Brampton_Logo.svg.png" 
+      logo: "https://bloximages.chicago2.vip.townnews.com/bramptonguardian.com/content/tncms/assets/v3/editorial/6/14/6145bafb-4020-51fe-92b2-e08a4ed6d7a3/65172e5fae1d4.image.jpg?resize=1200%2C900" 
     },
   ];
 
