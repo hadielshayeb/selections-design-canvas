@@ -19,9 +19,9 @@ const LogoSection = () => {
       logo: "https://spacesandexperiences.utoronto.ca/wp-content/uploads/2024/04/brand-UofT.jpg" 
     },
     { 
-      name: "Ryerson University", 
-      alt: "Ryerson University logo", 
-      logo: "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fofficial-new-logo-from-instagram-v0-tdoagd2vqwv81.jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3D8bff8bac38911d3058e60fc61eed0dbf268f3c16" 
+      name: "Toronto Metropolitan University", 
+      alt: "Toronto Metropolitan University Logo", 
+      logo: "https://www.torontomu.ca/content/dam/brand/global/images/brand-toolkit/brand-toolkit-1.jpg" 
     },
     { 
       name: "City of Mississauga", 
