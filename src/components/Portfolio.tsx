@@ -8,7 +8,7 @@ const projects = [
     id: 1,
     title: "Modern Minimalist Living Room",
     category: "residential",
-    image: "https://drive.usercontent.google.com/download?id=1_5Uns10W5debetv37-MjDczJz5jDTc4D&export=view&authuser=1",
+    image: "https://imgur.com/v4nQ9sW",
   },
   {
     id: 2,
