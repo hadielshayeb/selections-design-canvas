@@ -31,7 +31,7 @@ const AboutUs = () => {
           <div className="relative">
             <div className="aspect-square relative z-10">
               <img 
-                src="https://images.unsplash.com/photo-1613545325278-f24b0cae1224?q=80&w=2076&auto=format&fit=crop" 
+                src="https://i.postimg.cc/zXn4QR5P/2017-09-27-ELIZABETHKLASSENPHOTOGRAPHY-9385.jpg" 
                 alt="Interior designer working" 
                 className="w-full h-full object-cover rounded-md shadow-lg"
               />
