@@ -53,7 +53,8 @@ const Footer = () => {
             <address className="not-italic space-y-2">
               <p>19-5200 Dixie Rd.</p>
               <p>Mississauga, Ontario L4W 1E4</p>
-              <p>Phone: (905) 629-0001</p>
+              <p>Office: (905) 629-0001</p>
+              <p>Cell: (416) 562-3721</p>
               <p>Email: info@selectionsdesign.com</p>
             </address>
           </div>
