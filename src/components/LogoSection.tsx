@@ -16,7 +16,7 @@ const LogoSection = () => {
     { 
       name: "University of Toronto", 
       alt: "University of Toronto logo", 
-      logo: "https://spacesandexperiences.utoronto.ca/wp-content/uploads/2024/04/brand-UofT.jpg" 
+      logo: "https://static.wikia.nocookie.net/logopedia/images/a/aa/University_of_Toronto.png/revision/latest/scale-to-width-down/300?cb=20100916042554" 
     },
     { 
       name: "Toronto Metropolitan University", 
@@ -31,7 +31,7 @@ const LogoSection = () => {
     { 
       name: "Metrolinx", 
       alt: "Metrolinx logo", 
-      logo: "https://getvectorlogo.com/wp-content/uploads/2019/01/metrolinx-vector-logo.png" 
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_EC5k0qJtccX1xqF5gsfEZm9J0nDst4BlGg&s" 
     },
     { 
       name: "Dufferin Peel Catholic District School Board", 
