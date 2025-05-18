@@ -40,6 +40,30 @@ const projects = [
     category: "commercial",
     image: "https://images.unsplash.com/photo-1604328698692-f76ea9498e76?q=80&w=2070&auto=format&fit=crop",
   },
+  {
+    id: 7,
+    title: "Elegant Living Space",
+    category: "residential",
+    image: "https://i.postimg.cc/0yPh12y5/63-009-229.jpg",
+  },
+  {
+    id: 8,
+    title: "Luxe Living Corner",
+    category: "residential",
+    image: "https://i.postimg.cc/rs5Z7v6t/63-009-130.jpg",
+  },
+  {
+    id: 9,
+    title: "High-End Home",
+    category: "residential",
+    image: "https://i.postimg.cc/CM82ZfZL/36-b1bde75c.jpg",
+  },
+  {
+    id: 10,
+    title: "Premium Dine-In",
+    category: "commercial",
+    image: "https://i.postimg.cc/LXwGctnG/2017-10-11-SNUGHARBOURRESTAURANT-EKP-0140.jpg",
+  },
 ];
 
 const Portfolio = () => {
