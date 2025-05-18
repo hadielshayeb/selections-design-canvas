@@ -36,12 +36,12 @@ const LogoSection = () => {
     { 
       name: "Dufferin Peel Catholic District School Board", 
       alt: "Dufferin Peel Catholic District School Board logo", 
-      logo: "https://styles.redditmedia.com/t5_2dmfyk/styles/communityIcon_tytnc3da6lc41.jpeg?format=pjpg&s=33beb80f419acb2e82fc77b9dc8def20222dde79" 
+      logo: "https://investbrampton.ca/wp-content/uploads/2020/04/dufferin-peel-catholic-district-school-board-logo.png" 
     },
     { 
       name: "Snug Harbour", 
       alt: "Snug Harbour logo", 
-      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2otj3ZQKq-jTIkaIobWqeg2PrrSFyYScMe1OqhKo_9EXbIhcXbwT-Drw8XB1hQZML1es&usqp=CAU" 
+      logo: "https://media.glassdoor.com/sqll/1183738/snug-harbour-seafood-bar-and-grill-squarelogo-1536043588734.png" 
     },
     { 
       name: "Mucho Burrito", 
