@@ -16,7 +16,7 @@ const LogoSection = () => {
     { 
       name: "University of Toronto", 
       alt: "University of Toronto logo", 
-      logo: "https://static.wikia.nocookie.net/logopedia/images/a/aa/University_of_Toronto.png/revision/latest/scale-to-width-down/300?cb=20100916042554" 
+      logo: "https://www.freelogovectors.net/wp-content/uploads/2019/09/university-of-toronto-logo.png" 
     },
     { 
       name: "Toronto Metropolitan University", 
