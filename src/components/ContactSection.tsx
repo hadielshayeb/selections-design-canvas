@@ -12,6 +12,7 @@ const ContactSection = () => {
     email: "",
     phone: "",
     message: "",
+    _cc: "khaled@selectionsdesign.com" // Adding CC for Khaled
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -38,7 +39,13 @@ const ContactSection = () => {
           title: "Success!",
           description: "Thank you for your message! We'll be in touch soon.",
         });
-        setFormData({ name: "", email: "", phone: "", message: "" });
+        setFormData({ 
+          name: "", 
+          email: "", 
+          phone: "", 
+          message: "", 
+          _cc: "khaled@selectionsdesign.com" 
+        });
       } else {
         throw new Error("Form submission failed");
       }

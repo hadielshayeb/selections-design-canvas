@@ -6,17 +6,37 @@ import { toast } from "@/components/ui/sonner";
 
 const Hero = () => {
   const [email, setEmail] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Send email to both specified addresses
-    console.log("Sending consultation request to hadi@projectr.dev and hadielshayeb@gmail.com");
-    console.log("Consultation requested with email:", email);
-    toast.success("Thank you! We'll contact you soon for a consultation.");
-    setEmail("");
+    setIsSubmitting(true);
     
-    // You could implement actual form submission here with a service like EmailJS, Formspree, etc.
-    // This would require integrating with a form service or creating a backend endpoint
+    try {
+      const response = await fetch("https://formspree.io/f/myzwovvd", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email,
+          subject: "Consultation Request",
+          _cc: "khaled@selectionsdesign.com" // CC Khaled on all form submissions
+        }),
+      });
+      
+      if (response.ok) {
+        toast.success("Thank you! We'll contact you soon for a consultation.");
+        setEmail("");
+      } else {
+        throw new Error("Form submission failed");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      toast.error("There was a problem sending your request. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -53,8 +73,9 @@ const Hero = () => {
               size="lg"
               variant="outline"
               className="border-white bg-white/90 text-black hover:bg-white whitespace-nowrap font-medium"
+              disabled={isSubmitting}
             >
-              Book a Consultation
+              {isSubmitting ? "Sending..." : "Book a Consultation"}
             </Button>
           </form>
         </div>
