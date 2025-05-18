@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 const projects = [
   {
     id: 1,
-    title: "Modern Minimalist Living Room",
+    title: "Modern Minimalist Kitchen",
     category: "residential",
     image: "https://i.postimg.cc/c4gdJMNr/Screenshot-2025-01-02-142413.jpg",
   },
@@ -20,13 +20,13 @@ const projects = [
     id: 3,
     title: "Contemporary Kitchen Design",
     category: "residential",
-    image: "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=2074&auto=format&fit=crop",
+    image: "https://i.postimg.cc/LhdvTvn6/20190327-IMG-8086.jpg",
   },
   {
     id: 4,
-    title: "Boutique Retail Space",
-    category: "commercial",
-    image: "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?q=80&w=2069&auto=format&fit=crop",
+    title: "Sleek Washroom Suite",
+    category: "residential",
+    image: "https://i.postimg.cc/7hJm0jPW/20190327-IMG-8150.jpg",
   },
   {
     id: 5,
