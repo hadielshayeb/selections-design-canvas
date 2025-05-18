@@ -36,7 +36,6 @@ const AboutUs = () => {
                 className="w-full h-full object-cover rounded-md shadow-lg"
               />
             </div>
-            <div className="absolute -bottom-8 -left-8 w-80 h-80 md:-bottom-12 md:-left-12 md:w-96 md:h-96 border-8 border-accent rounded-md -z-0"></div>
           </div>
         </div>
       </div>
