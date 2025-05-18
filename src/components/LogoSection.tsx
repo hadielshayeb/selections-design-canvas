@@ -6,7 +6,7 @@ const LogoSection = () => {
     { 
       name: "Hero Certified Burgers", 
       alt: "Hero Certified Burgers logo", 
-      logo: "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/restaurant/cover/b63a7d43-9a09-4242-bc69-a868384c8f3b.png" 
+      logo: "https://mma.prnewswire.com/media/1714699/HERO_Burger_HERO_Certified_Burgers_and_Technics_Launch_Silent_He.jpg" 
     },
     { 
       name: "Baskin Robbins", 
@@ -21,7 +21,7 @@ const LogoSection = () => {
     { 
       name: "Toronto Metropolitan University", 
       alt: "Toronto Metropolitan University Logo", 
-      logo: "https://www.torontomu.ca/content/dam/brand/global/images/brand-toolkit/brand-toolkit-1.jpg" 
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZIa2llH6EGI6UOATce-cAoUasW7-BbYmnHw&s" 
     },
     { 
       name: "City of Mississauga", 
@@ -36,22 +36,22 @@ const LogoSection = () => {
     { 
       name: "Dufferin Peel Catholic District School Board", 
       alt: "Dufferin Peel Catholic District School Board logo", 
-      logo: "https://www.ocsta.on.ca/ocsta/wp-content/uploads/2019/02/logos_005-Dufferin-Peel-Catholic-District-School-Board.jpg" 
+      logo: "https://styles.redditmedia.com/t5_2dmfyk/styles/communityIcon_tytnc3da6lc41.jpeg?format=pjpg&s=33beb80f419acb2e82fc77b9dc8def20222dde79" 
     },
     { 
       name: "Snug Harbour", 
       alt: "Snug Harbour logo", 
-      logo: "https://media.glassdoor.com/sqll/1183738/snug-harbour-seafood-bar-and-grill-squarelogo-1536043588734.png" 
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2otj3ZQKq-jTIkaIobWqeg2PrrSFyYScMe1OqhKo_9EXbIhcXbwT-Drw8XB1hQZML1es&usqp=CAU" 
     },
     { 
       name: "Mucho Burrito", 
       alt: "Mucho Burrito logo", 
-      logo: "https://assets.simon.com/tenantlogos/29736.png" 
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDSZN1oGDVDnQxBiWMf9zUgget7QSwFa3JPw&s" 
     },
     { 
       name: "City of Brampton", 
       alt: "City of Brampton logo", 
-      logo: "https://bloximages.chicago2.vip.townnews.com/bramptonguardian.com/content/tncms/assets/v3/editorial/6/14/6145bafb-4020-51fe-92b2-e08a4ed6d7a3/65172e5fae1d4.image.jpg?resize=1200%2C900" 
+      logo: "https://www.katika.com/wp-content/uploads/2019/03/Brampton_colour.png" 
     },
   ];
 
