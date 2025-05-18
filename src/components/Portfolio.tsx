@@ -14,7 +14,7 @@ const projects = [
     id: 2,
     title: "Luxury Office Space",
     category: "commercial",
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop",
+    image: "https://onedrive.live.com/?authkey=%21AMgo2UQ9dlTZngA&cid=DF8A936EE079590F&id=DF8A936EE079590F%2158761&parId=DF8A936EE079590F%2141192&o=OneUp",
   },
   {
     id: 3,
