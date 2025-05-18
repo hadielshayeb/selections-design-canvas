@@ -14,7 +14,7 @@ const projects = [
     id: 2,
     title: "Luxury Office Space",
     category: "commercial",
-    image: "https://onedrive.live.com/?authkey=%21AMgo2UQ9dlTZngA&cid=DF8A936EE079590F&id=DF8A936EE079590F%2158761&parId=DF8A936EE079590F%2141192&o=OneUp",
+    image: "https://static.vecteezy.com/system/resources/previews/029/698/748/large_2x/luxury-office-and-working-room-in-executive-office-ai-generated-free-photo.jpg",
   },
   {
     id: 3,
